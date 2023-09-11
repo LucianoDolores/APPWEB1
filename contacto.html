@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>AW1</h1>
+        <nav>
+            <a href="index.html">HOGAR</a> 
+            <a href="recursos.html">RECURSOS</a>
+            <a href="multimedia.html">MULTIMEDIA</a>
+            <a href="contacto.html">CONTACTO</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>CONTACTO.</h2>
+        <form action="./contacto.html" method="post">
+            <label for="nombre">
+                nombre
+                <input type="text" id="nombre" name="nombre">
+            </label>
+            <br>
+            <label for="freelance">
+                SOY FREELANCE
+                <input type="checkbox" id="freelance" name="freelance">
+            </label>
+            <br>
+            <label for="lenguajes">
+                <select name="lenguajes" id="lenguajes">
+                    <option value="javascript">javascript</option>
+                    <option value="python"selected>python</option>
+                    <option value="c·">c·</option>
+                </select>
+            </label>
+            <br>
+            <label for="comentario">
+                COMENTARIO
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            </label>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>AW1 EL OWNER DE LA APP</p>
+    </footer>
+
+</body>
+</html>

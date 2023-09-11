@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/LucianoDolores/APPWEB1.git"
   },
-  "author": "",
+  "author": "Luciano Dolores",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LucianoDolores/APPWEB1/issues"
   },
-  "homepage": "https://github.com/LucianoDolores/APPWEB1#readme"
+  "homepage": "https://github.com/LucianoDolores/APPWEB1#readme",
+  "devDependencies": {
+    "five-server": "^0.3.1"
+  }
 }
